@@ -1,6 +1,0 @@
-
-## get the CONSTANTS setting files
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:rlkickstart/Configuration/TypoScript/Library/Constants" extensions="t3c">
-
-## Default-Werte fuer meta-tags
-defaultDescription = Das ist die Resterland Kickstart Distribution

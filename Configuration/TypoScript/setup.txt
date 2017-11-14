@@ -1,2 +1,0 @@
-## get the SETUP setting files
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:rlkickstart/Configuration/TypoScript/Library/Setup" extensions="t3s">

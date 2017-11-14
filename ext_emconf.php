@@ -13,7 +13,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Resterland Kickstart',
     'description' => 'Setting up a basic page tree for starting new web projects',
-    'category' => 'distribution',
+    'category' => 'be',
     'author' => 'Roland Fuhrer',
     'author_email' => 'roland@resterland.ch',
     'state' => 'alpha',
@@ -25,7 +25,6 @@ $EM_CONF[$_EXTKEY] = [
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-8.99.99',
-            'realurl' => '',
             'scheduler' => '',
             'linkvalidator' => '',
         ],
