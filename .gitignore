@@ -1,6 +1,6 @@
 ########################
 # TYPO3 CMS
-# extensions ignore file
+# global ignore file
 ########################
 #
 # Don't ignore .rej and .orig as we want to see/clean files after conflict resolution.
@@ -50,6 +50,16 @@ phantomjsdriver.log
 # TypeScript stuff
 .baseDir.ts
 .tscache
+#
+# Ignore composer stuff
+/bin/*
+/vendor/*
+#
+# Ignore common TYPO3 CMS files/directories
+/typo3temp/*
+/typo3conf/*
+/fileadmin/*
+/uploads/*
 #
 # root .htaccess file
 /.htaccess
