@@ -1,0 +1,28 @@
+{
+  "name": "resterland/rlkickstart",
+  "description": "Setting up a basic page tree for starting new web projects, multilingual. Default language is set to German. Additional languages = en, id, fr",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Roland Fuhrer",
+      "email": "roland@resterland.ch",
+      "homepage": "https://resterland.ch",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "roave/security-advisories": "dev-master",
+    "typo3/cms-core": ">=7.6.0 <9.0.0"
+  },
+  "replace": {
+    "rlkickstart": "self.version",
+    "typo3-ter/rlkickstart": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "Resterland\\Rlkickstart\\": "Classes/"
+    }
+  }
+
+}
