@@ -12,17 +12,11 @@
     }
   ],
   "require": {
-    "roave/security-advisories": "dev-master",
     "typo3/cms-core": ">=7.6.0 <9.0.0"
   },
   "replace": {
     "rlkickstart": "self.version",
     "typo3-ter/rlkickstart": "self.version"
-  },
-  "autoload": {
-    "psr-4": {
-      "Resterland\\Rlkickstart\\": "Classes/"
-    }
   }
 
 }
