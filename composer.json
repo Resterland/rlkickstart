@@ -17,23 +17,8 @@
 	"require": {
 		"typo3/minimal": "^9.5"
 	},
-	"require-dev": {
-		"roave/security-advisories": "dev-master",
-		"friendsofphp/php-cs-fixer": "^2.0",
-		"typo3/testing-framework": "^4.11"
-	},
-	"extra": {
-		"typo3/cms": {
-			"root-dir": "private",
-			"web-dir": "public"
-		}
-	},
 	"replace": {
 		"rlkickstart": "self.version",
 		"typo3-ter/rlkickstart": "self.version"
-	},
-	"config": {
-		"optimize-autoloader": true
 	}
-
 }
