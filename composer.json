@@ -1,4 +1,14 @@
 {
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/resterland/rlkickstart.git"
+		}
+	],
 	"name": "resterland/rlkickstart",
 	"type": "typo3-cms-extension",
 	"description": "Setting up a basic page tree for starting new web projects, multilingual. Default language is set to German. Additional languages = en, id, fr",
