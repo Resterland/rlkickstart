@@ -15,7 +15,8 @@
 		}
 	],
 	"require": {
-		"typo3/minimal": "^9.5"
+		"typo3/minimal": "^9.5",
+		"typo3/cms-impexp": "^9.5"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^2.0",
