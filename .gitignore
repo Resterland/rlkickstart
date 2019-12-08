@@ -133,3 +133,16 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 /private/*
 /public/*
+/var/*
+
+/.idea
+/nbproject
+/vendor
+/.env
+/.php_cs.cache
+
+/config/override.settings.yaml
+!/private/typo3conf
+/private/typo3conf/*
+!/private/typo3conf/l10n
+!/public/.htaccess

@@ -26,10 +26,13 @@
 	],
 	"require": {
 		"typo3/minimal": "^9.5",
-		"typo3/cms-impexp": "^9.5"
+		"typo3/cms-core": "^9.5",
+		"typo3/cms-impexp": "^9.5",
+		"roave/security-advisories": "dev-master"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^2.0",
+		"helhum/dotenv-connector": "^2.1@dev",
 		"typo3/testing-framework": "^4.11"
 	},
 	"extra": {
@@ -49,11 +52,14 @@
 		}
 	},
 	"replace": {
-		"rlkickstart": "self.version",
+		"resterland/rlkickstart": "self.version",
 		"typo3-ter/rlkickstart": "self.version"
 	},
 	"config": {
-		"optimize-autoloader": true
+		"optimize-autoloader": true,
+		"sort-packages": true,
+		"platform": {
+			"php": "7.2"
+		}
 	}
-
 }
