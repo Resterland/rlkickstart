@@ -25,15 +25,14 @@
 		}
 	],
 	"require": {
-		"typo3/minimal": "^9.5",
-		"typo3/cms-core": "^9.5",
-		"typo3/cms-impexp": "^9.5",
-		"roave/security-advisories": "dev-master"
+		"typo3/minimal": "^10",
+		"typo3/cms-core": "^10",
+		"typo3/cms-impexp": "^10"
 	},
 	"require-dev": {
-		"friendsofphp/php-cs-fixer": "^2.0",
-		"helhum/dotenv-connector": "^2.1@dev",
-		"typo3/testing-framework": "^4.11"
+		"roave/security-advisories": "dev-master",
+		"friendsofphp/php-cs-fixer": "^2",
+		"typo3/testing-framework": "^6"
 	},
 	"extra": {
 		"typo3/cms": {
@@ -59,7 +58,7 @@
 		"optimize-autoloader": true,
 		"sort-packages": true,
 		"platform": {
-			"php": "7.2"
+			"php": "7.4"
 		}
 	}
 }
