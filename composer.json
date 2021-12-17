@@ -25,9 +25,9 @@
 		}
 	],
 	"require": {
-		"typo3/minimal": "^10",
-		"typo3/cms-core": "^10",
-		"typo3/cms-impexp": "^10"
+		"typo3/minimal": "^10 || ^11",
+		"typo3/cms-core": "^10 || ^11",
+		"typo3/cms-impexp": "^10 || ^11"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master",
@@ -57,9 +57,6 @@
 	},
 	"config": {
 		"optimize-autoloader": true,
-		"sort-packages": true,
-		"platform": {
-			"php": "7.4"
-		}
+		"sort-packages": true
 	}
 }
