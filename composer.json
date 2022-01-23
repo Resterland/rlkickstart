@@ -1,14 +1,4 @@
 {
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://composer.typo3.org/"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/resterland/rlkickstart.git"
-		}
-	],
 	"name": "resterland/rlkickstart",
 	"type": "typo3-cms-extension",
 	"description": "Setting up a basic page tree for starting new web projects, multilingual. Default language is set to German. Additional languages = en, id, fr",
@@ -51,12 +41,18 @@
 			"Resterland\\Rlkickstart\\Tests\\": "Tests"
 		}
 	},
-	"replace": {
-		"resterland/rlkickstart": "self.version",
-		"typo3-ter/rlkickstart": "self.version"
-	},
 	"config": {
 		"optimize-autoloader": true,
-		"sort-packages": true
+		"sort-packages": true,
+		"allow-plugins": {
+			"typo3/cms-*": true,
+			"resterland/*": true,
+			"roave/security-advisories": true,
+			"typo3/testing-framework": true,
+			"helhum/*": true,
+			"causal/image_autoresize": true,
+			"typo3/class-alias-loader": true,
+			"friendsofphp/php-cs-fixer": true
+		}
 	}
 }
