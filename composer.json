@@ -20,7 +20,6 @@
 		"typo3/cms-impexp": "^10 || ^11"
 	},
 	"require-dev": {
-		"friendsofphp/php-cs-fixer": "^2",
 		"typo3/testing-framework": "^6"
 	},
 	"extra": {
