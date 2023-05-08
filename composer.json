@@ -15,12 +15,12 @@
 		}
 	],
 	"require": {
-		"typo3/minimal": "^11 || ^12",
-		"typo3/cms-core": "^11 || ^12",
-		"typo3/cms-impexp": "^11 || ^12"
+		"typo3/minimal": "^12",
+		"typo3/cms-core": "^12",
+		"typo3/cms-impexp": "^12"
 	},
 	"require-dev": {
-		"typo3/testing-framework": "^6"
+		"typo3/testing-framework": "^8.0"
 	},
 	"extra": {
 		"typo3/cms": {
